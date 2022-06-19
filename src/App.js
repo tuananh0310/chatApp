@@ -1,5 +1,5 @@
 import {useState, useRef} from 'react';
-
+import React from 'react';
 import './App.css';
 
 import firebase from 'firebase/compat/app'; 
@@ -28,13 +28,15 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
+    
+    <>
+    <header className="App-header">
         <h1>💬</h1>
         <SignOut/>
       </header>
-
-      <section >
-        {user ? <ChatRoom /> : <SignIn />}
+    </>
+      <section>
+        {user ? <ChatRoom/> : <SignIn/>}
       </section>
 
     </div>

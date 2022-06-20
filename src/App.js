@@ -1,5 +1,4 @@
 import {useState, useRef} from 'react';
-import React from 'react';
 import './App.css';
 
 import firebase from 'firebase/compat/app'; 

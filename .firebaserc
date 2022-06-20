@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "aqueous-impact-242710"
+  },
+  "targets": {
+    "aqueous-impact-242710": {
+      "hosting": {
+        "tuanzxc98": [
+          "https://aqueous-impact-242710--tuanzxc98-8am00en5.web.app/"
+        ]
+      }
+    }
+  }
+}
